@@ -62,6 +62,7 @@ footer {
     color: #F9FAF8;
     font-weight: 800;
     
+    
 }
 
 .one,
@@ -75,20 +76,147 @@ footer {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    border-style: double;
     padding-right: 0;
  }
 
- img {
-    width: 40%;
+.top-section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.one img {
+    width: 85%;
     height: auto;
+    max-height: 400px;
+    max-width: 850px;
+    padding: 1rem 0rem;
+  
 
 }
 
-.img {
-    margin-right: 550px;
+.image {
+   margin-right: 550px;
     padding: 15 0;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
 
+button {
+    background-color: #3882F6;
+    color: white; 
+    padding: 6px 17px;
+    border-radius: 6px; 
+}
+
+.hero, 
+.top {
+    
+    display: flex;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.hero-box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+    max-height: min-content;
+    width: 50%;
+    
+    
+}
+
+  .one .hero-box .SU {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
+    margin: 15px 0px; 
+}
+
+footer {
+    display: flex; 
+    justify-content: center;
+}
+
+.card .subs img {
+    border-style: ridge;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 350px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    
+}
+
+.subs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    max-width: 200px;
+   
+       
+}
+    
+.card {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+     
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    padding: 2em 2em
+}
+
+.quote-author {
+    display: flex;
+    max-width: 850px;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-right: 2rem; 
+    align-self: flex-end;
+    justify-content: center;
 }
