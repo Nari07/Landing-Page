@@ -151,6 +151,10 @@ footer {
     justify-content: center;
 }
 
+.two {
+    padding: 4em 0em; 
+}
+
 .card .subs img {
     border-style: ridge;
     padding: 0;
@@ -159,8 +163,10 @@ footer {
     height: auto;
     border-radius: 10px;
     max-height: 350px;
+    max-width: 250px;
     margin-bottom: 5px;
     margin-right: 0px;
+    flex-grow: 1; 
     
 }
 
@@ -169,6 +175,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 .subtext {
@@ -178,20 +186,24 @@ footer {
     text-align: center;
     justify-content: center;
     max-width: 200px;
-   
        
 }
     
 .card {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px; 
+    padding-bottom: 35px; 
 }
 
 .cards {
     display: flex;
-    flex-grow: 1;
     justify-content: center;
-}
+    margin: 0;
+    padding: 0; 
 
+}
 
 .three {
     display: flex;
@@ -208,7 +220,11 @@ footer {
     font-style: italic;
     color: #1F2937;
     font-weight: lighter;
-    padding: 2em 2em
+    padding-top: 2em;
+    padding-right: 2em; 
+    padding-left: 2em; 
+
+
 }
 
 .quote-author {
@@ -216,7 +232,8 @@ footer {
     max-width: 850px;
     font-weight: bolder;
     font-size: 24px;
-    padding-right: 2rem; 
+    margin-right: 150px; 
     align-self: flex-end;
     justify-content: center;
+    padding-bottom: 2em; 
 }
