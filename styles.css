@@ -16,10 +16,16 @@
 
  }
 
+.head-text {
+    font-family: 'Pacifico', cursive;
+}
+
  .header-links {
     font-size: 18px;
     color: #E5E7EB;  
- }
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 100;
+}
 
 
 .top {
@@ -27,6 +33,7 @@
     color: #E5E7EB;
     display: flex;
     flex-wrap: wrap;
+    font-weight: lighter;
 }
 
 
@@ -60,7 +67,8 @@ footer {
  section .hero {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 800;
+    font-weight: 500;
+    font-family: 'Comforter Brush', cursive;
     
     
 }
@@ -140,15 +148,18 @@ button {
   
 h2 {
     text-align: center;
-    font-size: 36px;
-    font-weight: 800px;
+    font-size: 40px;
+    font-weight: lighter;
     color: #1F2937;
-    margin: 15px 0px; 
+    margin: 35px 0px; 
+    font-family: 'Fredericka the Great', cursive;
+    
 }
 
 footer {
     display: flex; 
     justify-content: center;
+    padding: 1em 0em; 
 }
 
 .two {
@@ -186,6 +197,7 @@ footer {
     text-align: center;
     justify-content: center;
     max-width: 200px;
+    font-weight: lighter;
        
 }
     
@@ -236,4 +248,28 @@ footer {
     align-self: flex-end;
     justify-content: center;
     padding-bottom: 2em; 
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.blue {
+    margin: 4em; 
+    display: flex;
+    padding: 2em; 
+    gap: 35px; 
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.four .blue button {
+    border-style: solid;
+    border-color: white;
+     
+}
+
+.blue-subtext {
+    font-weight: lighter;
 }
